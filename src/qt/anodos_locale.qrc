@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/anodos_bg.qm</file>
+        <file alias="de">locale/anodos_de.qm</file>
+        <file alias="en">locale/anodos_en.qm</file>
+        <file alias="es">locale/anodos_es.qm</file>
+        <file alias="fi">locale/anodos_fi.qm</file>
+        <file alias="fr">locale/anodos_fr.qm</file>
+        <file alias="it">locale/anodos_it.qm</file>
+        <file alias="ja">locale/anodos_ja.qm</file>
+        <file alias="pl">locale/anodos_pl.qm</file>
+        <file alias="pt">locale/anodos_pt.qm</file>
+        <file alias="ru">locale/anodos_ru.qm</file>
+        <file alias="sk">locale/anodos_sk.qm</file>
+        <file alias="sv">locale/anodos_sv.qm</file>
+        <file alias="vi">locale/anodos_vi.qm</file>
+        <file alias="zh_CN">locale/anodos_zh_CN.qm</file>
+        <file alias="zh_TW">locale/anodos_zh_TW.qm</file>
+    </qresource>
+</RCC>

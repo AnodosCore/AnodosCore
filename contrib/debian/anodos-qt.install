@@ -1,0 +1,6 @@
+usr/local/bin/anodos-qt usr/bin
+share/pixmaps/anodos32.xpm usr/share/pixmaps
+share/pixmaps/anodos16.xpm usr/share/pixmaps
+share/pixmaps/anodos128.png usr/share/pixmaps
+debian/anodos-qt.desktop usr/share/applications
+debian/anodos-qt.protocol usr/share/kde4/services/
