@@ -175,7 +175,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 * The `PrivKey` is your masternode GEN key (This is also in the Bitvise terminal that you have open).
 * The `TxHash` is the transaction ID/long key that you copied to the text file.
 * The `Output Index` is the 0 or 1 that you copied to your text file.
-![Example-create](https://i.imgur.com/t7DN24N.png)
+![Example-create](https://i.imgur.com/bLrjrM5.png)
 
 Click "File Save"
 ***
