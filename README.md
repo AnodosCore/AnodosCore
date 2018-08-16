@@ -102,7 +102,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***Step 7***
 * Paste the code below into the Bitvise terminal, and then press enter
 
-`wget -q https://github.com/g00tch/Anodos/raw/master/ands_install.sh && bash ands_install.sh`
+`wget -q https://github.com/AnodosCore/AnodosCore/raw/master/ands_install.sh && bash ands_install.sh`
 
 ![Example-Bash](https://i.imgur.com/CRe0Vem.png)
 
