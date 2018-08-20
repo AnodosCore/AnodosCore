@@ -10,7 +10,7 @@ COIN_TGZ='https://github.com/AnodosCore/AnodosCore/releases/download/V2.0/Anodos
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='Anodos'
 COIN_PORT=1929
-RPC_PORT=1928
+RPC_PORT=1930
 
 NODEIP=$(curl -s4 icanhazip.com)
 
