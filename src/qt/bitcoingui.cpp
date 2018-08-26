@@ -1552,24 +1552,6 @@ bool BitcoinGUI::detectUpdateMenuCalled()
 
 bool BitcoinGUI::detectUpdate()
 {
-    if (BOOST_OS_MACOS)
-        return false; //dont check on OSX, it is not supported yet
-
-    if(GetBoolArg("-autoupdate", true) || updateCalledFromMenu)
-    {
-        disconnect(this, SLOT(downloadFinished(QNetworkReply*)));
-        disconnect(this, SLOT(updateCheckFinished(QNetworkReply*)));
-
-        connect(&manager, SIGNAL(finished(QNetworkReply*)),this, SLOT(updateCheckFinished(QNetworkReply*)));
-
-        this->target =  updateUrl + QString("version");
-
-        QUrl url = QUrl::fromEncoded(this->target.toLocal8Bit());
-        QNetworkRequest request(url);
-        //connect(manager.get(request), SIGNAL(downloadProgress(qint64,qint64)), this, SLOT(downloadProgress(qint64,qint64)));
-        manager.get(request);
-        return true;
-    }
     return false;
 }
 
